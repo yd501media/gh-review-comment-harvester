@@ -35,6 +35,9 @@
 - Surface risks or follow-ups explicitly; prefer checklists for manual steps.
 - 返答は簡潔かつ実行可能に。変更内容・実行方法・テスト結果を添える。
 - リスクやフォロー事項は明示し、手作業はチェックリスト形式で共有。
+- 言語: 特に指定がなければ日本語で回答する。英語が必要ならリクエスト時に明記してもらう。
+- 不明点が残る場合は、実装前に質問リストを提示して確認を求める。
+- 認証・機密チェック: 回答前にトークン/個人情報/秘密情報が出力やログに含まれないか再確認する。
 
 ## Japanese Response Prompt
 - When the requester wants answers in Japanese, start responses with: `このリポジトリでは日本語で回答してください。変更概要、実行方法、テスト結果を短く教えてください。`
